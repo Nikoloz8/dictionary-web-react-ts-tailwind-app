@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 10px !important;
+  }
+}
+
+.font-sans {
+  font-family: 'Inter', sans-serif
+}
+
+.font-serif {
+  font-family: 'Lora', serif
+}
+
+.font-mono {
+  font-family: 'Inconsolata', monospace
+}
