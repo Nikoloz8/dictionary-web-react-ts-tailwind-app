@@ -1,7 +1,7 @@
 
 export default function AudioWord({wordData, toggle}:TFooter) {
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between mt-[50px]!'>
             <div>
                 <h1 className={`font-[700] text-[6.4rem] text-[#2D2D2D] ${toggle ? "text-[#FFFFFF]" : undefined}`}>{wordData?.word}</h1>
                 <h3 className='text-[#A445ED] font-[400] text-[2.4rem]'>{wordData?.phonetic}</h3>
