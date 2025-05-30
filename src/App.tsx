@@ -48,7 +48,7 @@ function App() {
   return (
     <>
       <div className={`w-[100%] ${toggle ? "bg-[#050505]" : "bg-[#FFFFFF]"} flex items-start h-[100%] min-h-[100vh] justify-center ${fontNow()}`}>
-        <div className='w-[736px]! m-[0_50px_0_50px]! flex flex-col'>
+        <div className='w-[736px]! max-sm:w-[100%] m-[0_50px_0_50px]! flex flex-col'>
           <header className='w-[100%] p-[50px_0_50px_0]! flex justify-between items-center'>
             <img src="/images/logo.svg" alt="" />
             <div className='flex gap-[18px]'>
